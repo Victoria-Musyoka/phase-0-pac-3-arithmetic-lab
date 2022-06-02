@@ -1,22 +1,22 @@
 function add(a,b){
     return a + b;
 }
-add(3,2);
+add(5,2);
  
 function subtract(a,b){
     return a - b;
 }
-subtract(2,1);
+subtract(4,1);
 
 function multiply(a,b){
     return a*b ;
 }
-multiply(12,31);
+multiply(17,11);
 
 function divide(a,b){
     return a/b;
 }
-divide(4,2);
+divide(6,2);
 
 function increment(n){
     n++;
@@ -28,7 +28,7 @@ function decrement(n){
     n--;
     return n;
 }
-decrement(12);
+decrement(16);
 
 function makeInt(string){
    return parseInt(string,10)
@@ -38,4 +38,4 @@ function makeInt(string){
    function preserveDecimal(string){
        return parseFloat(string);
    }
-   preserveDecimal(12.3212);
+   preserveDecimal(10.4246)
